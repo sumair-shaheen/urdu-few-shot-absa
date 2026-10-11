@@ -1,0 +1,35 @@
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model checkpoints and trained weights
+saved_models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Logs and temporary files
+logs/
+*.log
+
+# Local datasets - review sharing permissions first
+data/
+ate_test.csv
+ate_val.csv
+
+# Local environment and secrets
+.env
+.venv/
+venv/
+
+# Local system files
+.DS_Store
+Thumbs.db
+# Large prediction output files
+results/predictions_baseline.csv
+results/predictions_mt5_incontext.csv
+results/predictions_peft.csv
